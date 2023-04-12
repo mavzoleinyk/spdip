@@ -4405,5 +4405,27 @@ blockquote {
 
 /* ================= CUSTOM STYLE ============================== */
 /* Адаптация уневерсальная */
+.prof__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.prof__list li{
+    flex: 1 0 25%;
+}
+.vuz-posts{
+    text-align: center;
+}
+.vuz-posts .btn-solid{
+    margin: 3rem auto 0;
+    display: inline-block;
+}
+.skills-posts{
+    text-align: center;
+}
+.skills-posts .btn-solid{
+    margin: 3rem auto 0;
+    display: inline-block;
+}
 
 /* ================= END CUSTOM STYLE ========================= */
